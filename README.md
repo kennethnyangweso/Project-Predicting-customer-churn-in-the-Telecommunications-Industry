@@ -232,6 +232,20 @@ Since our business priority is identifying churned customers, the best model wou
 
 - Good precision → While recall is the main goal, precision ensures that we don't flood the business with too many false churn predictions.
 
+**Confusion Matrix for the Random Forest**
+
+![image](https://github.com/user-attachments/assets/307a4d53-197e-4c63-a6f7-314adaa0a940)
+
+**Key Observations**
+- **Excellent True Negatives (TN):** The model perfectly classified all 566 customers who did not churn.
+
+- **High True Positives (TP):** The model correctly identified 87 out of 101 churned customers.
+
+- **Zero False Positives (FP):** The model did not incorrectly predict any customers as "Churned" when they actually did not churn.
+
+**Low False Negatives (FN):** The model missed only 14 churned customers.
+
+
 **Random Forest Feature Importance Analysis:**
 
 ![image](https://github.com/user-attachments/assets/1a0ed139-efff-473f-a522-7476bf6b9eef)
