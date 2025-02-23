@@ -163,7 +163,31 @@ To improve some of the models' performance some of the techniques  used include:
 
 - Hyper parameter using Grid Search and Randomized Search(Improves the model performance based on the key metrics such as recall)
 
-EVALUATION:
+**EVALUATION:**
+
+For evaluation process, the evaluation metrics are:
+
+- Recall(priority): It indicates what percentage of the classes to be analyzed were actually captured by the model.
+
+- F1-score: Harmonic mean of precision and recall
+
+- Precision: Measures how many predicted positives are actually positive
+
+- Accuracy: Proportion of correctly classified instances out of the total
+
+Visualizations to be used for the model analysis:
+
+- **Confusion matrix:** It is a table used to evaluate the performance of a classification model by comparing predicted labels against actual (true) labels. It provides a detailed breakdown of correct and incorrect predictions, making it a valuable tool for understanding model performance.
+
+- **ROC and AUC curves:** 
+
+**Receiver Operator Characteristic Curve:** Illustrates the true positive rate against the false positive rate of the classifier 
+
+**Area Under the Curve:** Singular value summarizing the ROC curve. A higher AUC indicates better performance
+
+
+**Metrics Evaluation**
+
 
 ![image](https://github.com/user-attachments/assets/5f348582-164e-4a26-9bda-3415fa2466ff)
 
