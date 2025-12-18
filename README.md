@@ -20,7 +20,7 @@ By predicting which customers are likely to churn, the company can take proactiv
 
 # **🗂️ Dataset Overview**
 
-Source: SyriaTel customer data
+**Source:** SyriaTel customer data
 
 ### **Preprocessing Steps:**
 
@@ -92,9 +92,9 @@ Source: SyriaTel customer data
     git clone https://github.com/kennethnyangweso/Project-Predicting-customer-churn-in-the-Telecommunications-Industry.git
     cd Project-Predicting-customer-churn-in-the-Telecommunications-Industry
     pip install -r requirements.txt
-     python app.py
+    python app.py
 
-📁 Project Structure
+# **📁 Project Structure**
 
     ├── data/                   # Raw and cleaned datasets
     ├── notebooks/              # EDA and modeling notebooks
