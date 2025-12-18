@@ -114,6 +114,11 @@ Ensemble models (Random Forest and XGBoost) clearly outperform simpler models. X
 
 Users can input customer details (e.g., services subscribed, charges, contract type) and get a predicted churn probability.
 
+### **Expected Results**
+
+<img width="1366" height="649" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/1fea6707-3f17-4255-abee-a83f25790255" />
+
+
 # **📁 Project Structure**
 
     ├── data/                   # Raw and cleaned datasets
