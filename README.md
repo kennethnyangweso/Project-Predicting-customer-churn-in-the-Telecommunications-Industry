@@ -1,6 +1,7 @@
 # **📱 Customer Churn Prediction – Telecommunications Industry**
 
 Predicting customer churn for a telecom company using machine learning.
+
 **Goal:** Identify customers likely to leave and provide actionable insights to reduce churn and improve retention.
 
 # **🎯 Business Problem**
@@ -140,3 +141,9 @@ Users can input customer details (e.g., services subscribed, charges, contract t
 - Deployment: Streamlit (Python web app)
 
 - IDE: Jupyter Notebook
+
+## **👤 Author**
+
+**Kenneth Nyangweso**
+
+**Data Scientist | Electrical & Telecommunications Engineer**
