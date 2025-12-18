@@ -69,6 +69,22 @@ By predicting which customers are likely to churn, the company can take proactiv
 | Random Forest      | 97.9%    | 99.0%     | 93.0%  | 96.0%    |
 | XGBoost            | 98.0%    | 99.0%    |  94.0%  | 96.0%   |
 
+Ensemble models (Random Forest and XGBoost) clearly outperform simpler models. XGBoost edges out slightly in accuracy, but both Random Forest and XGBoost provide highly reliable predictions, making them ideal choices for deployment and actionable churn prevention strategies.
+
+## **Confusion Matrix**
+
+<img width="539" height="453" alt="image" src="https://github.com/user-attachments/assets/bfdc633c-cb6f-466b-b492-7323f6c90556" />
+
+**Insight**: The model is particularly effective at identifying customers who will not churn (100% recall for "Not Churn" class) and exhibits perfect precision when predicting churn (100%), meaning any customer flagged as likely to churn is a true positive case.
+
+## **ROC-AUC Curve**
+
+<img width="691" height="545" alt="image" src="https://github.com/user-attachments/assets/2ced4c62-65de-4403-8d63-6e38d9c5953b" />
+
+ **Insight**: Random Forest model offers slightly better performance over the base model, as indicated by a marginally higher Area Under the Curve (AUC) value of 0.94 compared to 0.93.
+
+## **Feature Importance graph**
+
 <img width="1020" height="545" alt="image" src="https://github.com/user-attachments/assets/80b406fd-c4c5-4c41-8d4e-aebeace68a13" />
 
 **Dominant Feature:** Total_Charges is overwhelmingly the most important feature, dwarfing all others. This indicates it's the strongest predictor in the model.
@@ -94,6 +110,10 @@ By predicting which customers are likely to churn, the company can take proactiv
     pip install -r requirements.txt
     python app.py
 
+**App Overview:**
+
+Users can input customer details (e.g., services subscribed, charges, contract type) and get a predicted churn probability.
+
 # **📁 Project Structure**
 
     ├── data/                   # Raw and cleaned datasets
@@ -103,3 +123,15 @@ By predicting which customers are likely to churn, the company can take proactiv
     ├── Visualizations/         # Key plots for README & notebook
     ├── README.md
     ├── requirements.txt        # Python dependencies
+
+# **🛠️ Tools & Technologies**
+
+- Python: Pandas, NumPy, Scikit-learn
+
+- Visualization: Matplotlib, Seaborn
+
+- Modeling: Random Forest, Decision Tree, XGBoost, Logistic Regression
+
+- Deployment: Streamlit (Python web app)
+
+- IDE: Jupyter Notebook
