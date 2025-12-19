@@ -19,6 +19,15 @@ By predicting which customers are likely to churn, the company can take proactiv
 
 4. Provide actionable insights and recommendations to reduce churn and increase customer retention.
 
+# **🧠 Machine Learning Workflow**
+
+- Data cleaning & preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Feature engineering  
+- Model training with multiple algorithms  
+- Evaluation and comparison  
+- Selection of the best performing model 
+
 # **🗂️ Dataset Overview**
 
 **Source:** SyriaTel customer data
