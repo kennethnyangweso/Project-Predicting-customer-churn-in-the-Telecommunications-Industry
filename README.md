@@ -8,6 +8,7 @@
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-F7931E?logo=scikitlearn&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-FF4B4B?logo=streamlit&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![License](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)
 
 Predicting customer churn for a telecom company using machine learning.
 
